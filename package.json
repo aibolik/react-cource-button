@@ -1,0 +1,27 @@
+{
+  "name": "@aibolik/react-button",
+  "description": "A button created during 30-day-react course",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib/",
+    "build:wepback": "webpack --mode=production"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Aibol Kussain <aibolikdev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
